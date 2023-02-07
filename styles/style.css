@@ -1,8 +1,8 @@
-*{
+/*{
     margin: 0;
     padding: 0;
     background-color: #ffffff;
-}
+}*/
 
 .navmenu img{
 width: 60px;
@@ -81,9 +81,9 @@ header {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: "#f9f9f9";
+    background-color: #f9f9f9;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px white;
+    box-shadow: 0px 8px 16px 0px black;
 }
 
 .dropdown-content a{
@@ -99,7 +99,7 @@ header {
 
 
 .dropdown:hover .dropbtn{
-    color: #2980b9; 
+    color: #4fa3db;
     text-decoration: underline;
 }
 
@@ -107,3 +107,17 @@ header {
 margin-top: 20px;
 margin-bottom: 20px;
 }
+
+footer {
+    background-color:#e8e8e6 ;
+    margin-top: 15px;
+    height: 60px;
+}
+
+.footer-message{
+    text-align: center;
+    padding:20px;
+    color:#363945
+}
+/*.footer-message span {color:#5b6b7f;
+    font-weight: bold;}*/
